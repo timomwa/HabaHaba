@@ -1,0 +1,473 @@
+/*
+* Alama Creative Ltd
+* Author, Eric K. Njoroge
+* www.alamacreative.com
+*/
+  
+  
+/* Simple Reset
+------------------------------------------------------------ */
+html, body, div, h1, h2, h3, h4, ul, li, dl, dd, dt, p {
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+ @font-face {
+font-family: "AvantGarde Bk BT", "Century Gothic";
+src: url('fonts/Avgardn.ttf') format('truetype');
+src: url('fonts/GOTHIC_0.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+body {
+	background-color:#fff;
+	font-family: 'Segoe UI', Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	line-height:27px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
+}
+a img {
+	border:none;
+}
+/* Styles Za Header
+------------------------------------------------------------ */
+header {
+	max-width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+	padding:0;
+}
+#logo {
+	padding:30px 0 0 0;
+	margin:0;
+	float:left;
+}
+
+#login img {
+	padding:0 2px 0 0;
+	float:left;
+}
+#login a {
+	margin:0;
+	padding:0;
+	color: #303030;
+}
+#login a:hover {
+	color: #007eff;
+}
+/* Styles Za nav
+------------------------------------------------------------ */
+.menu {
+	max-width: 100%;
+	text-align:center;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	height:60px;
+}
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+*:first-child+html .group {
+	zoom: 1;
+} /* IE7 */
+#control {
+	max-width: 1000px;
+	margin: 0 auto;
+	list-style: none;
+	position: relative;
+	text-align:left;
+}
+#control li {
+	display: inline-block;
+}
+#control a {
+	max-width:120px;
+	margin-bottom:-8px;
+	color: #303030;
+	font-size: 12px;
+	float: left;
+	padding: 15px 15px 0px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#control a:hover {
+	color: #007eff;
+}
+#control .current a {
+	color: #007eff;
+}
+.ie6 #control li, .ie7 #control li {
+	display: inline;
+}
+/* SUBMENU */
+#control ul.submenu {
+	text-align:left;
+	max-width:200px;
+	position: absolute;
+	display:none;
+	z-index: 9999;
+	top: 40px;
+	font-size: 12px;
+}
+#control ul.submenu a {
+	font-size: 12px;
+	border:0;
+}
+#control ul.submenu .current a {
+	color: #303030 !important;
+}
+#control ul.submenu a:hover {
+	color: #007eff !important;
+	border:0;
+}
+#control > li ul.submenu ul {
+	float: left;
+}
+#control > li:hover ul.submenu {
+	border: 1px solid #eee;
+	background: #fff;
+	padding:5px;
+	display: block;
+}
+/*  Styles za Intro
+------------------------------------------------------------ */
+#intro {
+	max-width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+	padding:15px 0 10px 0;
+}
+#intro h1 {
+	font-family: "Century Gothic",'Segoe UI', Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	line-height:45px;
+	color:#303030;
+	margin-bottom:10px;
+}
+#intro p {
+	font-family: 'Segoe UI', Verdana, Geneva, sans-serif;
+	color:#303030;
+}
+/*  Styles za Icons
+------------------------------------------------------------ */
+
+#item {
+	max-width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+	padding-top:50px;
+}
+#idea {
+	float: left;
+	width:300px;
+	padding:2px;
+	text-align:center;
+	margin:11px;
+}
+#idea p {
+	line-height:25px;
+	color:#676767;
+}
+#idea h3 {
+	padding-top:20px;
+	font-size:18px;
+	font-weight:bold;
+	line-height:20px;
+	color:#007eff;
+}
+#idea img {
+	margin:0px 0px 0px 0px;
+	max-width:100%;
+}
+#idea img:hover {
+	transform:scale(1.1); /* Remember vendor prefixes! */
+	-moz-transform:scale(1.1); /* Remember vendor prefixes! */
+	-webkit-transform:scale(1.1); /* Remember vendor prefixes! */
+	-o-transform:scale(1.1); /* Remember vendor prefixes! */
+}
+/*  Styles za calc
+------------------------------------------------------------ */
+#container {
+	width: 100%;
+	margin:40px 0px 0px 0px;
+	background-color:#007eff;
+}
+#calc {
+	max-width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.calc {
+	max-width:500px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	overflow: hidden;
+	padding:60px 0px 60px 0px;
+}
+
+#bk{
+background-color:#052f5a;	
+	}
+.calc h1 {
+	font-family: "Century Gothic", "AvantGarde Bk BT", Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	line-height:45px;
+	color:#fff;
+	margin-bottom:10px;
+}
+
+
+.calc h2 {
+	font-family: "Century Gothic", "AvantGarde Bk BT", Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:45px;
+	color:#fff;
+	margin:0px 0px 10px 35px;
+}
+
+.calc p {
+	line-height:25px;
+	color:#fff;
+	padding:0px 20px 0px 0px;
+}
+/*  Styles za hako ka form
+------------------------------------------------------------ */
+
+form {
+	position: relative;
+	margin:30px 0px 0px 50px;
+}
+.email {
+	width: 300px;
+	height: 100px;
+	padding: 0 10px;
+	background: #6bb4ff;
+	font-size: 12px;
+	margin:0;
+	border: 0;
+		color: #fff;
+	text-align:center;
+}
+.submit {
+	width: 100px;
+	height: 100px;
+	margin: 0 0 0 -4px;
+	padding: 0;
+	background: #003c79;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	border: 0;
+}
+.submit:hover {
+	background: #052f5a;
+	color:#fff;
+}
+
+
+/*  Styles za hako ka form
+------------------------------------------------------------ */
+
+ .amount{
+	position: relative;
+	margin:0px 0px 0px 35px;
+	float:left;
+}
+.c1 {
+	width: 400px;
+	height: 100px;
+	padding: 0 10px;
+	background: #052f5a;
+	font-size: 12px;
+	margin:0;
+	border: 0;
+	color: #fff;
+	text-align:center;
+}
+
+.c4 {
+	width: 400px;
+	height: 100px;
+	padding: 0 10px;
+	background: #007eff;
+	font-size: 12px;
+	margin:0;
+	border: 0;
+	color: #fff;
+	text-align:center;
+}
+
+.c2 {
+	width: 300px;
+	height: 100px;
+	padding: 0 10px;
+	background: #003e7e;
+	font-size: 12px;
+	margin:-1px 0 0 0;
+	border: 0;
+	color: #fff;
+	text-align:center;
+}
+.c3 {
+	width: 100px;
+	height: 100px;
+	margin: -1px 0 0 -4px;
+	padding: 0;
+	background: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	color: #007eff;
+	cursor: pointer;
+	border: 0;
+}
+.c3:hover {
+	background: #74b6fa;
+	color:#fff;
+}
+/*  Styles za hapo footer
+------------------------------------------------------------ */
+
+#container1 {
+	width: 100%;
+	margin:40px 0px 0px 0px;
+}
+#end {
+	max-width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.end {
+	width:230px;
+	margin:0px 0px 20px 0px;
+	float:left;
+	overflow: hidden;
+}
+.end h1 {
+	font-family: "Century Gothic", "AvantGarde Bk BT", Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:45px;
+	color:#999;
+	margin-bottom:10px;
+	padding:0px 0px 0px 2px;
+	border-bottom: 1px solid #aaa;
+}
+.end a {
+	color:#303030;
+}
+.end a:hover {
+	color:#007eff;
+}
+#break {
+	border-right: 1px solid #aaa;
+	padding:0px 10px 0px 10px;
+}
+#follow {
+	padding:0px 0px 0px 10px;
+}
+/*  Styles za social icons
+------------------------------------------------------------ */
+
+.fb {
+	margin:0px 10px 0px 10px;
+	float:left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/fb.jpg);
+	text-indent: -99999px;
+}
+#end a:hover.fb {
+	background-image:url(../images/fb2.jpg);
+}
+.end a:hover.fb {
+	background-image:url(../slides/fb2.jpg);
+}
+.go {
+	margin:0px 10px 0px 0px;
+	float:left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/go.jpg);
+	text-indent: -99999px;
+}
+#end a:hover.go {
+	background-image:url(../images/go2.jpg);
+}
+.end a:hover.go {
+	background-image:url(../images/go2.jpg);
+}
+.tw {
+	margin:0px 10px 0px 0px;
+	float:left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/tw.jpg);
+	text-indent: -99999px;
+}
+#end a:hover.tw {
+	background-image:url(../images/tw2.jpg);
+}
+.end a:hover.tw {
+	background-image:url(../images/tw2.jpg);
+}
+/*  Styles za footer
+------------------------------------------------------------ */
+   
+footer {
+	border-top: 1px solid #ddd;
+	width: 100%;
+	margin:20px 0px 0px 0px;
+	text-align:center;
+	background-image:url(../images/denim.png);
+	color:#007eff;
+}
+footer p {
+	padding:20px 0px 20px 0px;
+}
+
+footer a {
+	color:#66aef9;
+}
+
+
+/*  Styles za Login
+------------------------------------------------------------ */
+
+
+
+/*  Styles za other pages
+------------------------------------------------------------ */
+
+#content {
+	max-width:650px;
+	margin:0px 0px 0px 20px;
+	float:left;
+	overflow: hidden;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 959px) {
+}
+ @media only screen and (max-width: 767px) {
+}
+ @media screen and (max-width: 480px) {
+}
