@@ -1,0 +1,31 @@
+We have been requested to create a web site that assists consumers
+weigh various options in the insurance, loans and mortgage products.
+offered by various companies. The website will have filters and
+calculators where one can key in a loan amount  and period and gets
+feed back on institutions offering products within his range. the user
+can also scroll to a an amount range and period and is updated with
+the relevant information.
+The site has three interfaces:
+1. The client interface where the consumer interacts with the sight to
+compare prices and products. This is what can be viewed by the public.
+
+2. The institutional interface where companies that have their
+products on the website can update product features and add new items.
+this will be accessible through a login.
+
+3. The Admin interface which will be accessibly to the site owner
+where he can add or delete companies, change passwords view analytic s
+and generally have control of the entire website.
+
+I have already done a mock up for the website will be sending it you
+soon, the sites you should check out are comparethemarket.com for the
+calculators and batakenya.com for the price slider. Think of a price
+we can quote and timeline so we can start coding.
+
+
+TABLE
+====
+- user - Done
+- company - Done
+- product - Done
+- company_product - Done
